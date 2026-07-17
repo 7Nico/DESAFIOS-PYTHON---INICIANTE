@@ -1,0 +1,5 @@
+print('TIPOS PRIMITIVOS')
+print('int: 7, -4, 0, 98751. Números inteiros, seja positivo ou negativo ou zero')
+print('float: 4.5, 0.076, -15.223. Números reais, com vírgula, ponto flutuante. Obs: Mesmo número inteiros, pode de vez em quando ser considerado ponto flutuante, ex: 7.0')
+print('bool: True, False. Um valor booleano é um tipo de dado lógico que assume apenas uma de duas possibilidades: verdadeiro (True) ou falso (False). Obs: Lembre sempre de usar letra maiuscula no começo')
+print(f'str:Olá. Palavras, que sempre precisam estar entre aspas. Ex: {'7,5'} não assume como float e sim como string porque está entre aspas')
