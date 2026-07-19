@@ -1,3 +1,5 @@
+#Crie um programa que leia o dia, o mês e o ano de nascimento de uma pessoa e mostre uma mensagem com a data formatada.
+
 print('====== DESAFIO 02 ======')
 dia = input('Dia')
 mês = input('Mês')
