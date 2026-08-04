@@ -1,11 +1,18 @@
-# Escreva um programa em Python que:
-# Leia uma frase qualquer digitada pelo usuário.
-# Monte uma nova string contendo apenas as vogais da frase original, mas na ordem inversa (da última letra para a primeira).
-# Ignore espaços, acentos e diferenças entre maiúsculas e minúsculas (pode converter tudo para maiúsculas, por exemplo).
-# No final, exiba a frase original sem espaços e a nova frase com as vogais invertidas.
+# Faça um programa que leia a idade de 6 pessoas e, no final, mostre:
+# A maior idade e quantas pessoas têm essa idade;
 
-frase = str(input('Digite uma frase: ')).strip().upper()
-separado = frase.split()
-junto = ''.join(separado)
-vogais = 'AEIOU
-print(separado)
+maior = 0
+count = 0
+for i in range(1, 7):
+    idade = int(input(f'Digite a idade da {i}° pessoa: '))
+    if i == 1:
+        maior = idade
+        count += 1
+    else:
+        if idade > maior:
+            count = 0
+            maior = idade
+            count += 1
+        elif idade == maior:
+            count += 1
+print(f'A maior idade é {maior} e {count} pessoa(s) tem essa idade.')
